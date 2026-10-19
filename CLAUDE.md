@@ -1,0 +1,3 @@
+# relative-equilibria
+
+@AGENTS.md
