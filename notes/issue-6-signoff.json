@@ -1,0 +1,17 @@
+{
+  "issue": 6,
+  "status": "awaiting-human-review",
+  "recipient_scope": "Moczurad and Zgliczy\u0144ski, through a human-verified route",
+  "required_evidence": "NOTE.md equations and proposed symmetry convention; any later certificates and independent-check logs.",
+  "signoffs": [
+    {
+      "sender": null,
+      "recipient_verified_at": null,
+      "sent_at": null,
+      "prior_counts": null,
+      "count_convention": null,
+      "data_permission": null,
+      "reply_reference": null
+    }
+  ]
+}
