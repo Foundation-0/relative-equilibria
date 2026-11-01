@@ -1,0 +1,11 @@
+{
+  "description": "Computer-certified counts of the equilibrium shapes of n equal masses and of n identical point vortices.",
+  "topics": [
+    "foundation0",
+    "celestial-mechanics",
+    "n-body",
+    "point-vortices",
+    "interval-arithmetic",
+    "computer-assisted-proof"
+  ]
+}
