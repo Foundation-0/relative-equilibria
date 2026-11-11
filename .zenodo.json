@@ -1,0 +1,27 @@
+{
+    "creators": [
+        {
+            "name": "Arifuddin, Ahraz"
+        }
+    ],
+    "title": "relative-equilibria",
+    "description": "<p>This repository aims to give exact, computer-certified counts of central configurations of 8 equal masses and of relative equilibria of 5, 6 and 7 identical point vortices.</p><p>Status: not started. No counts or certificates from this project are present yet.</p><p>Directed by Ahraz Arifuddin</p><p>Researched and verified by different model families across Gemini, Claude, Grok, OpenAI, and Muse</p>",
+    "upload_type": "software",
+    "license": "Apache-2.0",
+    "keywords": [
+        "celestial-mechanics",
+        "computer-assisted-proof",
+        "foundation0",
+        "interval-arithmetic",
+        "n-body",
+        "point-vortices"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/Foundation-0/relative-equilibria",
+            "relation": "isSupplementTo",
+            "scheme": "url",
+            "resource_type": "software"
+        }
+    ]
+}
