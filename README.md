@@ -94,6 +94,8 @@ The equations, the symmetries and the certificate format are in [NOTE.md](NOTE.m
 |---|---|
 | `NOTE.md` | the equations, the symmetries and the certificate format (draft) |
 | `AGENTS.md` | the guide for AI agents; `CLAUDE.md` points Claude Code to it |
+| `results/cc-equal-masses/`, `certificates/` | existence certificates for 8, 9 and 10 equal masses, the certifier, the separate verifier and the saved outputs; no count is claimed |
+| `notes/box-method-2026-11-15.md` | what is and is not proved for 8, 9 and 10 equal masses |
 | `notes/scouting-2026-10-19.md` | the research so far, with sources, split by how far each fact was checked |
 | `notes/reports/` | the complete scouting reports, kept as written, and the fact-check |
 | `.github/` | the pull request template and the task issue form |
