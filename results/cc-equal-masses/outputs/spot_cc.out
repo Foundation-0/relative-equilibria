@@ -1,0 +1,4 @@
+class keys: ['pinned_body', 'centre_num', 'I_enclosure', 'P_enclosure', 'morse_index', 'sym_order', 'uniqueness_radius_exp2']
+cc-a1-n8.json: n=8, 20 classes, worst equation residual 1.10e-14, smallest gap between inertia values 1.28e-04
+cc-a1-n9.json: n=9, 42 classes, worst equation residual 6.40e-15, smallest gap between inertia values 1.16e-05
+cc-a1-n10.json: n=10, 67 classes, worst equation residual 9.84e-15, smallest gap between inertia values 2.28e-08
