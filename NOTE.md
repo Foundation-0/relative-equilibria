@@ -92,6 +92,38 @@ Open points for the first issue:
    on them, and boxes along a family will neither be excluded nor certified. Such a family needs a different
    proof, and would itself be a result.
 
+### 3.1 The reduced system used for equal masses and a = 1 (from the November 2026 review)
+
+This subsection answers part of the first open issue: the choices of normalisation and the dropped equation, for $a=1$ and $m_i=1$.
+The certificates in [`results/cc-equal-masses`](results/cc-equal-masses/README.md) use it. It does not settle the compact search
+region (open points 3 and 4 above): the certificates prove existence of listed classes and search nothing.
+
+**Equations.** With $m_i=1$, $a=1$ and $\lambda=1$, for $i=1,\dots,n$:
+
+$$F_i(q)=\sum_{j\ne i}\frac{q_i-q_j}{r_{ij}^{3}}-q_i=0 .$$
+
+**Scale.** $\lambda=1$ fixes the scale. Every solution of (1) has $\lambda>0$ (Section 1), and scaling by $s$ turns $\lambda$ into
+$s^{-3}\lambda$, so each class has exactly one representative with $\lambda=1$.
+
+**Translation.** Summing the $n$ equations, the double sum $\sum_i\sum_{j\ne i}(q_i-q_j)/r_{ij}^3$ cancels in pairs, so $\sum_i q_i=0$.
+The equations force the centre of mass to zero. Nothing needs to be imposed.
+
+**Rotation.** Let $k$ be a body farthest from the origin. Its distance is positive, because the bodies are not all at the origin. Rotate so that body $k$
+lies on the positive $x$-axis: $y_k=0$ and $x_k>0$. Then $y_k$ is not an unknown. Which body is farthest is not known in advance, so the search
+(or the certificate) records the index $k$ for each solution.
+
+**The dropped equation.** The cross-product identity $\sum_i q_i\times F_i=0$ holds for every configuration, because the pair terms
+$q_i\times q_j$ and $q_j\times q_i$ cancel and $q_i\times q_i=0$. With $y_k=0$ it reads $x_k\,F_{k,y}=-\sum_{i\ne k}q_i\times F_i$.
+So if $x_k>0$ and every equation other than $F_{k,y}=0$ holds, then $F_{k,y}=0$ holds too. Drop $F_{k,y}$.
+
+**Why the reduced system is square.** There are $2n$ coordinates, and $y_k$ is removed, which leaves $2n-1$ unknowns (15 for $n=8$). There are $2n$ equations, and $F_{k,y}$ is dropped,
+which leaves $2n-1$ equations. Call the system $G$. Its zeros with $x_k>0$ are exactly the central configurations with $\lambda=1$, centre of mass at the origin and body $k$
+on the positive $x$-axis. The Jacobian $DG$ at a zero is invertible exactly when the configuration is non-degenerate, so the Krawczyk test can prove a zero unique in its box.
+
+**Classes.** Two solutions are in one class when they differ by rotation, reflection and relabelling. The invariant used to tell classes apart is
+$I=\sum_i|q_i|^2$, which with $\lambda=1$ equals $U_1$. Moeckel's potential is $U_1\sqrt{I}=I^{3/2}$. The certificates give, for each class, the order $s$ of its symmetry group,
+and the labelled count $\sum_k 2\,n!/s_k$ of Section 2. The Morse identity $\sum_k(-1)^{h_k}\,2/s_k=(-1)^n/(n(n-1))$ is checked for each list.
+
 ## 4. Certificate format (draft)
 
 Modelled on the certificates of [point-charges](https://github.com/Foundation-0/point-charges): one JSON file per
